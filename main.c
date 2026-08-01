@@ -2,7 +2,7 @@
 
 int main(void)
 {
-    InitWindow(1200, 900, "Game");
+    InitWindow(800, 600, "Game");
     SetTargetFPS(60);
 
     while (!WindowShouldClose())
@@ -16,5 +16,5 @@ int main(void)
     CloseWindow();
 
     return 0;
-    
+
 }
